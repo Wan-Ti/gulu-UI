@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Wan-Ti/gulu-UI#readme",
   "dependencies": {
+    "button": "^1.1.1",
     "vue": "^2.6.11",
     "vue-hot-reload-api": "^2.3.4"
   },
