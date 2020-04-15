@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev-test": "parcel watch test/* --no-cache & karma start",
-    "test": "parcel build test/* --no-minify && karma start --single-run"
+    "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,8 @@
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.1.2",
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
     "karma": "^5.0.1",
     "karma-chai": "^0.1.0",
     "karma-chai-spies": "^0.1.4",
