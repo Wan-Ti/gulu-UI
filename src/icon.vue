@@ -1,10 +1,12 @@
 <template>
-  <svg class="g-icon">
+  <svg class="g-icon" @click="$emit('click', $event)">
     <use :xlink:href="`#i-${name}`" />
   </svg>
 </template>
 <script>
+import "./svg";
 export default {
+  name: "GuluIcon",
   props: ["name"]
 };
 </script>
