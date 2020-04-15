@@ -7,10 +7,6 @@ Vue.component('g-button', Button)
 Vue.component('g-icon', Icon)
 Vue.component('g-button-group', ButtonGroup)
 
-import createElement from 'vue'
-
-const h = createElement
-
 new Vue({
     el: '#app',
     data: {
